@@ -29,7 +29,7 @@ function Skills() {
       <div className="w-full my-12">
         <Marquee
           gradient={false}
-          speed={80}
+          speed={100}
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
@@ -37,7 +37,7 @@ function Skills() {
           direction="left"
         >
           {skillsData.map((skill, id) => (
-            <div className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
+            <div className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-100 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
               key={id}>
               <div className="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
                 <div className="flex -translate-y-[1px] justify-center">
